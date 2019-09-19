@@ -12,11 +12,16 @@
 			padding: 0;
 			height: 100%;
             background: var(--blue);
-            font-family: 'PT Sans', sans-serif;
+            font-family: 'Titillium Web', sans-serif;
         }
         h1{
-            color: var(--black)
-        }
+			color: var(--black);
+			font-weight: bold;
+		}
+		.sign-up{
+			background: var(--orange);
+			min-height: 80vh;
+		}
 		.user_card {
 			height: 450px;
 			width: 400px;
@@ -69,5 +74,19 @@
 			background-color: var(--red) ;
         }
         a{
-            color: var(--blue);
+			color: var(--blue);
+			transition: .3s ease-in-out;
         }
+        a:hover{
+            color: var(--black);
+		}
+		footer p{
+			color: #fff;
+		}
+		footer p i{
+			color: red;
+			font-size: 13px;
+		}
+		footer p strong{
+			color: rgb(2, 2, 99);
+		}
